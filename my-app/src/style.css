@@ -1,0 +1,47 @@
+h1{
+      text-align: center;
+      text-transform: uppercase;
+}
+
+form{
+      margin-top: 20px;
+      margin-left: 35%;
+      background-color: aliceblue;
+      height: max-content;
+      padding: 15px;
+      text-align: left;
+      width: fit-content;
+      
+}
+
+form.form-content {
+      display: table;
+  }
+  
+  div.form-content {
+      display: table-row;
+  }
+
+
+   input, select, textarea {
+      display: table-cell;
+      margin-bottom: 20px;
+  }
+  
+  label{
+        display: table-cell;
+        margin-bottom: 10px;
+        padding-right: 20px;
+  }
+
+
+  
+input[type=checkbox] {
+      padding-left: 15px;
+}
+
+button{
+      margin-top: 2%;
+      padding: 5px 10px;
+      margin-left:40%;
+}
